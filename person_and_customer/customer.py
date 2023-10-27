@@ -211,6 +211,7 @@ def view_customer_info():
 
 def view_customers_info():
     if len(customer_dict) > 0:
+        print()
         for name in customer_dict:
             print(customer_dict[name])
             print()
