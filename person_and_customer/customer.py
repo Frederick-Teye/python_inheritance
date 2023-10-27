@@ -253,4 +253,5 @@ def get_last_name():
                 return last_name[0].upper() + last_name[1:]
 
 
-main()
+if __name__ == "__main__":
+    main()
